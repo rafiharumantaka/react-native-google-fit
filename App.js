@@ -131,8 +131,7 @@ const styles = StyleSheet.create({
   screen: {
     padding: 16,
     backgroundColor: 'black',
-    innerWidth: Dimensions.get("window").width,
-    innerHeight: Dimensions.get("window").height,
+    flex: 1
   }
 });
 
